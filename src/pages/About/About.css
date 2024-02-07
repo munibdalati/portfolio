@@ -1,0 +1,86 @@
+.aboutAllContainer {
+    background-color: var(--secondaryColor);
+}
+.aboutTopContainer{
+    padding-top: 100px;
+}
+.aboutTitle, .aboutName{
+    font-size: 5rem;
+    font-family: 'Sacramento', serif;
+    color: var(--tertiaryColor);
+    text-align: center;
+}
+
+.aboutName{
+    font-size: 3rem;
+    font-family: 'Sacramento', serif;
+    color: var(--tertiaryColor);
+    text-align: center;
+}
+.aboutEmoji{
+    width: 15%;
+}
+.aboutBody{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.aboutIntroduction{
+    width: 40%;
+    background-color: var(--primaryColor);
+    border-radius: 10px;
+    text-align: left;
+    line-height: 200%;
+    padding: 2%;
+}
+.cv-download-paragraph{
+    margin: 20px 20%;
+    padding: 12px;
+    text-decoration: none;
+    border: var(--secondaryColor) 1px solid;
+    border-radius: 35px;
+    letter-spacing: 2px;
+}
+.cv-download-paragraph:hover, .cv-download:hover {
+    background-color: var(--secondaryColor);
+    color: black;
+    text-decoration: none;
+}
+
+.aboutName{
+    margin-left: 5%;
+}
+.aboutImg{
+    width: 40%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+@media all and (max-width:780px){
+    
+    .aboutTitle{
+        font-size: 2.0rem;
+        margin: 0 5%;
+    }
+    .aboutTopContainer{
+        margin: 7%;
+    }
+    .aboutEmoji{
+        width: 20%;
+    }
+    .aboutBody{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aboutIntroduction{
+        width: 80%
+    }
+    .aboutImg{
+        width: 60%;
+    }
+    .cv-download-paragraph{
+        margin: 20px 5%;
+    }
+  
+}

@@ -1,0 +1,143 @@
+.contactContainer {
+    justify-content: center;
+    align-items: center;
+    margin: 8% 7% 0% 7%;
+  }
+.contactTitle {
+    font-size: 5rem;
+    font-family: "Sacramento", serif;
+    color: var(--tertiaryColor);
+    text-align: center;
+}
+.contactEmoji {
+    width: 8%;
+}
+.contactBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+.contactForm  {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 15% 15% 40% 20%;
+    grid-row-gap: 16%;
+    font-family: "Montserrat", serif;
+    color: var(--tertiaryColor);
+    font-weight: bold;
+}
+.contactName {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.contactNameBlank {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.contactSubject {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.contactSubjectblank {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.contactMessage {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.contactMessageblank {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.contactBtn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    color: var(--primaryColor);
+    font-size: 20px;
+    padding-left: none;
+    text-decoration: none;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+}
+.contactBtn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    color: var(--quaternaryColor)
+}
+
+.contactGetInTouch {
+    font-family: "Montserrat", serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+.contactFirstParagraph {
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    color: #11999e;
+}
+.contactSecondParagraph {
+    font-family: "Montserrat", serif;
+    color: #11999e;
+}
+
+@media all and (max-width: 780px) {
+    .contactTitle {
+        font-size: 2.0rem;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .contactEmoji {
+        width: 15%;
+    }
+    .contactParagraph {
+        font-size: 2rem;
+    }
+
+    .contactBody {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contactTitle {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .contactGetInTouch {
+        font-size: 1.5rem;
+    }
+    .contactFirstParagraph {
+        font-size: 1.2rem;
+    }
+    .contactSecondParagraph {
+        font-size: 1rem;
+    }
+    .contactForm  {
+        width: 95%;
+    }
+    .contactForm  label {
+        font-size: 0.7rem;
+    }
+    .contactBtn {
+        font-size: 0.8rem;
+        padding-top: 8%;
+    }
+}

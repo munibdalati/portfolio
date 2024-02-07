@@ -1,0 +1,22 @@
+.portfolioHeader {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+  padding-top: 1%;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  overflow: hidden;
+  background-color: var(--primaryColor);
+  position: fixed;
+  top: 0;
+  padding-bottom: 1%;
+  width: 97%;
+}
+a {
+    color: #11999E;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+}

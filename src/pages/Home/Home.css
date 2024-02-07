@@ -1,0 +1,51 @@
+.homeTopContainer {
+    margin-top: 100px;
+}
+
+.homeName {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', serif;
+    color: var(--tertiaryColor);
+    text-align: center;
+}
+
+.homeEmoji {
+    width: 10%;
+}
+
+.homeCareer {
+    font-family: 'Montserrat', serif;
+    font-size: 1.5rem;
+    color: var(--tertiaryColor);
+}
+
+.homeMountain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+@media all and (max-width:780px) {
+    .homeMountain {
+        width: 100%;
+    }
+
+    .homeName {
+        font-size: 2rem;
+        margin: 0 5%;
+        margin-bottom: 10%;
+    }
+
+    .homeCareer {
+        margin: 0 5%;
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+}
+
+@media all and (max-width:300px) {
+    .homeTopContainer {
+        margin-top: 200px;
+    }
+}
