@@ -34,7 +34,7 @@ function Projects() {
       <div className="row mx-0 mt-5">
         {projectData.slice(0, visibleProjects).map((project, index) => ( // Display only the visible projects
           <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" key={index}>
-            <Card style={{ width: '22rem', height: '600px' }}>
+            <Card style={{ width: '22rem', height: '600px', marginBottom:'75px' }}>
               <Card.Img className='mb-2' variant="top" height="200" style={{ objectFit: 'contain', maxWidth: '100%', maxHeight: '100%' }}
                 src={project.img} />
               <Card.Body style={{ height: '100%', overflowY: 'auto' }}>

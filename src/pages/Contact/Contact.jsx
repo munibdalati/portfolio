@@ -3,6 +3,8 @@ import Header from '../../shared/Header/Header'
 import Footer from '../../shared/Footer/Footer'
 import './Contact.css'
 import ContactImg from '../../assets/images/contact-img.png';
+import location from '../../assets/images/location.svg'
+import telephone from '../../assets/images/telephone.svg'
 
 function Contact() {
   return (
@@ -17,6 +19,9 @@ function Contact() {
             <p className='contactGetInTouch'>Get In Touch</p>
             <p className="contactFirstParagraph">If you liked my website, I'll be happy to contact with you!</p>
             <p className="contactSecondParagraph">Also, you can see my different social media accounts below. Thank you for your visit!</p>
+            <p className="contactSecondParagraph"><img className='contactIcon' src={telephone} />+962785056637</p>
+            <p className="contactSecondParagraph"><img className='contactIcon' src={location} />Amman, Jordan</p>
+            
           </div>
 
           <form action="" method="get" className="form-example contactForm col-5">

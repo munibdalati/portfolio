@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../../shared/Header/Header'
 import Footer from '../../shared/Footer/Footer'
-import cloud from '../../assets/images/cloud.png'
 import emoji from '../../assets/images/emoji.png'
-import mountain from '../../assets/images/mountain.png'
+// import mountain from '../../assets/images/mountain.png'
+import homeImg from '../../assets/images/Programming-amico.svg'
 import './Home.css'
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
         </h1>
       </div>
       <p className="homeCareer text-center">Full Stack Web and Mobile Developer</p>
-      <img className="homeMountain" src={mountain} alt="mountain-img" />
+      <img className="homeImg" src={homeImg} alt="homeImg" />
       <Footer />
     </>
   )
