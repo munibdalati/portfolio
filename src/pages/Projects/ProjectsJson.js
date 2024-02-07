@@ -91,8 +91,8 @@ export const projectData = [
     "projectName": "HTML & CSS project (Portfolio)",
     "description": "The second project was this website that you are viewing right now. It has been coded using HTML and CSS, which are important frontend languages.",
     "img": portfolioImage,
-    "githubLink": "https://github.com/yourUsername/portfolio",
-    "liveLink": "https://your-portfolio-live.netlify.app/",
+    "githubLink": "https://github.com/munibdalati/portfolio",
+    "liveLink": "https://munibaldalati-portfolio.netlify.app/",
     "skills": ["HTML", "CSS"]
   },
   {

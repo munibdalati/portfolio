@@ -21,7 +21,7 @@ function Skills() {
           <div className="row justify-content-center">
             {skillsData.map((skill, index) => (
                 <div className='col-lg-3 col-sm-4 justify-content-center d-flex'>
-                <img className='skillIcon' key={index} src={skill.skillIcon} alt={`Skill ${index + 1}`} /></div>
+                <img className='skillIcon my-4' key={index} src={skill.skillIcon} alt={`Skill ${index + 1}`} /></div>
             ))}
           </div>
         </div>
