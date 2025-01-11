@@ -10,17 +10,20 @@ import cv from '../../assets/files/Munib-Al-Dalati-resume.pdf'
 function About() {
   return (
     <>
-      <Header background="#E0EBE8" aboutTextDecoration={"underline"}  />
+      <Header background="#E0EBE8" aboutTextDecoration={"underline"} />
       <div>
         <div className="aboutAllContainer">
           <div className="aboutTopContainer d-flex justify-content-around px-5">
             <div>
-            <img className="w-100" src={cloud} alt="cloud-img" /></div>
-            <div>
-            <h1 className="aboutTitle">About me <img className="aboutEmoji" src={emoji} alt="" /></h1>
+              <img className="w-100" src={cloud} alt="cloud-img" />
             </div>
             <div>
-            <img className="w-100" src={cloud} alt="cloud-img" />
+              <h1 className="aboutTitle">
+                About me <img className="aboutEmoji" src={emoji} alt="" />
+              </h1>
+            </div>
+            <div>
+              <img className="w-100" src={cloud} alt="cloud-img" />
             </div>
           </div>
           <div className="aboutBody">
@@ -35,10 +38,10 @@ function About() {
                 how we can work together on your next project or opportunity.
               </p>
               <p className="cv-download-paragraph text-center">
-                <a className="cv-download" href={cv} download>
-                  Download My CV
+                <a className="cv-download d-flex align-items-center justify-content-center" href={cv} download>
+                  <span>Download My CV</span>
+                  <i className="fa-regular fa-file-lines cv-icon px-2"></i>
                 </a>
-                <i className="fa-regular fa-file-lines cv-icon px-2"></i>
               </p>
             </div>
             <img className="aboutImg" src={munib} alt="" />
@@ -46,8 +49,8 @@ function About() {
         </div>
       </div>
       <Footer />
-
-    </>)
+    </>
+  )
 }
 
 export default About
