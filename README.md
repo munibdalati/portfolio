@@ -1,9 +1,9 @@
 # portfolio
 
-To run this project :
-1- Ensure that port 3000 is available in your environment
-2- Open a new terminal on Portfolio folder
-3- Type this command to install all dependencies
+To run this project : <br />
+1- Ensure that port 3000 is available in your environment <br />
+2- Open a new terminal on Portfolio folder <br />
+3- Type this command to install all dependencies <br />
 ```
 npm i
 ```
